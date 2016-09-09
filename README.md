@@ -10,6 +10,7 @@ Start by cloning the tree
 We need to install the cross toolchain required to build the source
 
 `sudo tar xjf buildroot-gcc342.tar.bz2 -C /opt/`
+`sudo apt-get install libc6:i386`
 
 Finally we can start building the source
 
